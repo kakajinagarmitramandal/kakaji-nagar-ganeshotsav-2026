@@ -1,0 +1,4950 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Kakaji Nagar Sarvajanik Shree Ganesh Utsav Mitra Mandal - Ganeshotsav 2026 Sponsorship Portfolio">
+
+    <meta name="theme-color"
+          content="#7c1f22">
+
+    <title>
+        Kakaji Nagar Ganeshotsav 2026
+    </title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+
+<style>
+
+/* =====================================================
+   GLOBAL
+===================================================== */
+
+:root {
+
+    --cream: #fffaf3;
+    --cream-dark: #fff0d4;
+
+    --white: #ffffff;
+
+    --maroon: #7c1f22;
+    --dark-maroon: #5c1518;
+
+    --gold: #c99422;
+    --dark-gold: #8e6716;
+
+    --black: #17110e;
+    --dark: #211711;
+
+    --text: #241914;
+    --muted: #706056;
+
+    --border: rgba(141,101,20,0.20);
+
+    --shadow:
+        0 15px 40px rgba(40,20,5,0.10);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
+
+body {
+
+    font-family: Poppins, sans-serif;
+
+    background: var(--cream);
+
+    color: var(--text);
+
+    line-height: 1.7;
+}
+
+
+body.devnagari {
+
+    font-family:
+        "Noto Sans Devanagari",
+        Poppins,
+        sans-serif;
+}
+
+
+img {
+
+    width: 100%;
+
+    display: block;
+}
+
+
+a {
+
+    text-decoration: none;
+
+    color: inherit;
+}
+
+
+button {
+
+    font-family: inherit;
+}
+
+
+.container {
+
+    width: 92%;
+
+    max-width: 1180px;
+
+    margin: auto;
+}
+
+
+/* =====================================================
+   NAVBAR
+===================================================== */
+
+.navbar {
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 999;
+
+    min-height: 76px;
+
+    padding: 12px 5%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    background: rgba(255,250,243,0.96);
+
+    backdrop-filter: blur(12px);
+
+    border-bottom:
+        1px solid var(--border);
+}
+
+
+/* LOGO */
+
+.logo {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 11px;
+}
+
+
+.logo-symbol {
+
+    width: 48px;
+
+    height: 48px;
+
+    border-radius: 50%;
+
+    display: grid;
+
+    place-items: center;
+
+    background: var(--maroon);
+
+    color: #ffd76a;
+
+    border: 1px solid #d9aa45;
+
+    font-size: 27px;
+}
+
+
+.logo-text {
+
+    display: flex;
+
+    flex-direction: column;
+
+    line-height: 1.2;
+}
+
+
+.logo-text strong {
+
+    font-family: Cinzel, serif;
+
+    font-size: 15px;
+
+    letter-spacing: 1px;
+}
+
+
+.logo-text small {
+
+    font-size: 9px;
+
+    color: var(--muted);
+
+    letter-spacing: 1px;
+}
+
+
+/* NAV LINKS */
+
+.nav-links {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+}
+
+
+.nav-links > a {
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    color: #4b3a2f;
+
+    transition: 0.2s;
+}
+
+
+.nav-links > a:hover {
+
+    color: var(--maroon);
+}
+
+
+/* LANGUAGE */
+
+.language-selector {
+
+    position: relative;
+}
+
+
+.language-button {
+
+    border: 1px solid var(--border);
+
+    background: white;
+
+    color: var(--text);
+
+    padding: 8px 12px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 12px;
+
+    font-weight: 600;
+}
+
+
+.language-menu {
+
+    display: none;
+
+    position: absolute;
+
+    right: 0;
+
+    top: 45px;
+
+    width: 140px;
+
+    background: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    box-shadow: var(--shadow);
+}
+
+
+.language-menu.show {
+
+    display: block;
+}
+
+
+.language-menu button {
+
+    width: 100%;
+
+    padding: 10px;
+
+    border: none;
+
+    background: white;
+
+    text-align: left;
+
+    cursor: pointer;
+
+    font-size: 12px;
+}
+
+
+.language-menu button:hover {
+
+    background: var(--cream-dark);
+}
+
+
+/* MOBILE MENU */
+
+.menu-button {
+
+    display: none;
+
+    border: none;
+
+    background: transparent;
+
+    font-size: 28px;
+
+    cursor: pointer;
+}
+
+
+/* =====================================================
+   HERO
+===================================================== */
+
+.hero {
+
+    min-height: calc(100vh - 76px);
+
+    display: grid;
+
+    grid-template-columns: 1.05fr 0.95fr;
+
+    align-items: center;
+
+    gap: 55px;
+
+    padding: 70px 7%;
+
+    background:
+
+        radial-gradient(
+            circle at 10% 20%,
+            rgba(201,148,34,0.13),
+            transparent 30%
+        ),
+
+        linear-gradient(
+            135deg,
+            #fffaf3,
+            #fff1d7
+        );
+}
+
+
+.hero-content {
+
+    max-width: 720px;
+}
+
+
+.hero-badge {
+
+    display: inline-block;
+
+    padding: 7px 14px;
+
+    border: 1px solid var(--border);
+
+    border-radius: 30px;
+
+    color: var(--maroon);
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    margin-bottom: 15px;
+}
+
+
+.hero-small {
+
+    color: var(--dark-gold);
+
+    font-size: 13px;
+
+    letter-spacing: 3px;
+
+    font-weight: 700;
+}
+
+
+.hero h1 {
+
+    font-family: Cinzel, serif;
+
+    line-height: 1;
+
+    margin: 10px 0;
+}
+
+
+.hero-number {
+
+    display: block;
+
+    font-size: clamp(
+        70px,
+        9vw,
+        120px
+    );
+
+    color: var(--maroon);
+}
+
+
+.hero-years {
+
+    font-size: clamp(
+        25px,
+        4vw,
+        48px
+    );
+
+    color: var(--dark-gold);
+
+    letter-spacing: 7px;
+}
+
+
+.hero h2 {
+
+    font-family: Cinzel, serif;
+
+    font-size: clamp(
+        30px,
+        4vw,
+        52px
+    );
+
+    line-height: 1.15;
+
+    margin-top: 18px;
+}
+
+
+.hero h3 {
+
+    font-size: 14px;
+
+    letter-spacing: 1.5px;
+
+    color: var(--muted);
+
+    margin: 8px 0;
+}
+
+
+.hero-location {
+
+    color: var(--maroon);
+
+    font-weight: 600;
+
+    margin-bottom: 17px;
+}
+
+
+.hero-description {
+
+    color: var(--muted);
+
+    font-size: 14px;
+
+    max-width: 650px;
+}
+
+
+/* BUTTONS */
+
+.hero-buttons,
+.contact-buttons {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+    margin-top: 25px;
+}
+
+
+.btn {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-height: 47px;
+
+    padding: 11px 19px;
+
+    border-radius: 8px;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    transition: 0.2s;
+}
+
+
+.btn-primary {
+
+    background: var(--maroon);
+
+    color: white;
+}
+
+
+.btn-primary:hover {
+
+    background: var(--dark-maroon);
+
+    transform: translateY(-2px);
+}
+
+
+.btn-secondary {
+
+    background: white;
+
+    color: var(--maroon);
+
+    border: 1px solid var(--maroon);
+}
+
+
+.btn-secondary:hover {
+
+    background: var(--cream-dark);
+
+    transform: translateY(-2px);
+}
+
+
+/* HERO IMAGE */
+
+.hero-image {
+
+    max-width: 520px;
+
+    width: 100%;
+
+    justify-self: center;
+
+    padding: 9px;
+
+    background: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 18px;
+
+    box-shadow: var(--shadow);
+}
+
+
+.hero-image img {
+
+    height: 570px;
+
+    object-fit: cover;
+
+    border-radius: 11px;
+}
+
+
+/* =====================================================
+   STATS
+===================================================== */
+
+.stats {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4,1fr);
+
+    gap: 14px;
+
+    padding: 28px 7%;
+
+    background: white;
+}
+
+
+.stat-card {
+
+    text-align: center;
+
+    padding: 19px;
+
+    background: #fffaf4;
+
+    border: 1px solid var(--border);
+
+    border-radius: 12px;
+}
+
+
+.stat-card span {
+
+    font-size: 22px;
+}
+
+
+.stat-card h2 {
+
+    font-family: Cinzel, serif;
+
+    color: var(--maroon);
+
+    font-size: 23px;
+}
+
+
+.stat-card p {
+
+    color: var(--muted);
+
+    font-size: 11px;
+}
+
+
+/* =====================================================
+   COMMON SECTION
+===================================================== */
+
+.section {
+
+    padding: 90px 7%;
+}
+
+
+.section-heading {
+
+    max-width: 780px;
+
+    text-align: center;
+
+    margin: 0 auto 45px;
+}
+
+
+.section-heading > span {
+
+    color: var(--dark-gold);
+
+    font-size: 11px;
+
+    letter-spacing: 2px;
+
+    font-weight: 800;
+}
+
+
+.section-heading h2 {
+
+    font-family: Cinzel, serif;
+
+    font-size: clamp(
+        30px,
+        4vw,
+        48px
+    );
+
+    line-height: 1.2;
+
+    margin: 9px 0;
+}
+
+
+.section-heading p {
+
+    color: var(--muted);
+
+    font-size: 13px;
+}
+
+
+/* =====================================================
+   ABOUT
+===================================================== */
+
+.about-grid {
+
+    max-width: 1150px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        0.9fr 1.1fr;
+
+    gap: 55px;
+
+    align-items: center;
+}
+
+
+.about-image {
+
+    width: 100%;
+
+    padding: 9px;
+
+    background: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 18px;
+
+    box-shadow: var(--shadow);
+}
+
+
+.about-image img {
+
+    height: 510px;
+
+    object-fit: cover;
+
+    border-radius: 11px;
+}
+
+
+.established-box {
+
+    display: inline-flex;
+
+    flex-direction: column;
+
+    padding: 12px 16px;
+
+    border-left: 4px solid var(--gold);
+
+    background: var(--cream-dark);
+
+    margin-bottom: 18px;
+}
+
+
+.established-box span {
+
+    font-size: 10px;
+
+    color: var(--dark-gold);
+
+    letter-spacing: 2px;
+
+    font-weight: 800;
+}
+
+
+.established-box strong {
+
+    font-family: Cinzel, serif;
+
+    color: var(--maroon);
+}
+
+
+.about-content h3 {
+
+    font-family: Cinzel, serif;
+
+    font-size: 28px;
+
+    line-height: 1.3;
+
+    margin-bottom: 14px;
+}
+
+
+.about-content p {
+
+    color: var(--muted);
+
+    font-size: 13px;
+
+    margin-bottom: 12px;
+}
+
+
+.about-facts {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 30px;
+
+    margin-top: 23px;
+}
+
+
+.about-facts strong {
+
+    display: block;
+
+    font-family: Cinzel, serif;
+
+    color: var(--maroon);
+
+    font-size: 24px;
+}
+
+
+.about-facts span {
+
+    color: var(--muted);
+
+    font-size: 10px;
+}
+
+
+/* =====================================================
+   DARK SECTION
+===================================================== */
+
+.dark-section {
+
+    padding: 90px 7%;
+
+    background:
+        linear-gradient(
+            135deg,
+            #17110e,
+            #2b1b13
+        );
+
+    color: white;
+}
+
+
+.light h2 {
+
+    color: white;
+}
+
+
+.light p {
+
+    color: #cdbfb5;
+}
+
+
+/* BENEFITS */
+
+.benefit-grid {
+
+    max-width: 1150px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4,1fr);
+
+    gap: 18px;
+}
+
+
+.benefit-card {
+
+    padding: 27px 21px;
+
+    border:
+        1px solid
+        rgba(255,215,106,0.18);
+
+    background:
+        rgba(255,255,255,0.045);
+
+    border-radius: 14px;
+}
+
+
+.benefit-icon {
+
+    font-size: 28px;
+
+    margin-bottom: 12px;
+}
+
+
+.benefit-card h3 {
+
+    font-family: Cinzel, serif;
+
+    font-size: 19px;
+
+    margin-bottom: 7px;
+}
+
+
+.benefit-card p {
+
+    color: #cdbfb5;
+
+    font-size: 12px;
+}
+
+
+/* =====================================================
+   LEGACY
+===================================================== */
+
+.legacy-content {
+
+    max-width: 1000px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: 180px 1fr;
+
+    gap: 45px;
+
+    padding: 43px;
+
+    background: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 16px;
+
+    box-shadow: var(--shadow);
+}
+
+
+.legacy-year {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+.legacy-year strong {
+
+    font-family: Cinzel, serif;
+
+    color: var(--maroon);
+
+    font-size: 56px;
+
+    line-height: 1;
+}
+
+
+.legacy-year span {
+
+    color: var(--dark-gold);
+
+    font-size: 10px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+
+    margin-top: 8px;
+}
+
+
+.legacy-text h3 {
+
+    font-family: Cinzel, serif;
+
+    font-size: 29px;
+
+    margin-bottom: 12px;
+}
+
+
+.legacy-text p {
+
+    color: var(--muted);
+
+    font-size: 13px;
+
+    margin-bottom: 11px;
+}
+
+
+.text-link {
+
+    color: var(--maroon);
+
+    font-size: 12px;
+
+    font-weight: 700;
+}
+
+
+/* =====================================================
+   MEMORIES
+===================================================== */
+
+.memories-section {
+
+    background: #fff7eb;
+}
+
+
+.memories-grid {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3,1fr);
+
+    gap: 17px;
+}
+
+
+.memory-photo {
+
+    padding: 7px;
+
+    background: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 8px 25px
+        rgba(40,20,5,0.07);
+}
+
+
+.memory-photo img {
+
+    height: 360px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+
+.memory-photo:hover img {
+
+    transform: scale(1.03);
+}
+
+
+/* =====================================================
+   ADVERTISING
+===================================================== */
+
+.advertising-grid {
+
+    max-width: 1150px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3,1fr);
+
+    gap: 18px;
+}
+
+
+.advertising-card {
+
+    padding: 28px 22px;
+
+    background: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 14px;
+
+    box-shadow: var(--shadow);
+}
+
+
+.ad-icon {
+
+    font-size: 29px;
+
+    margin-bottom: 10px;
+}
+
+
+.advertising-card h3 {
+
+    font-family: Cinzel, serif;
+
+    color: var(--maroon);
+
+    font-size: 19px;
+
+    margin-bottom: 7px;
+}
+
+
+.advertising-card p {
+
+    color: var(--muted);
+
+    font-size: 12px;
+
+    margin-bottom: 13px;
+}
+
+
+.advertising-card strong {
+
+    color: var(--dark-gold);
+
+    font-size: 9px;
+
+    letter-spacing: 1.5px;
+}
+
+
+/* =====================================================
+   SPONSORSHIP
+===================================================== */
+
+.sponsor-grid {
+
+    max-width: 1100px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3,1fr);
+
+    gap: 19px;
+}
+
+
+.sponsor-card {
+
+    position: relative;
+
+    padding: 34px 23px 23px;
+
+    background: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 14px;
+
+    box-shadow: var(--shadow);
+}
+
+
+.sponsor-card.featured {
+
+    border: 2px solid var(--gold);
+
+    transform: translateY(-5px);
+}
+
+
+.popular {
+
+    position: absolute;
+
+    top: 12px;
+
+    right: 12px;
+
+    background: var(--gold);
+
+    color: white;
+
+    padding: 4px 8px;
+
+    border-radius: 20px;
+
+    font-size: 8px;
+
+    font-weight: 800;
+
+    letter-spacing: 1px;
+}
+
+
+.package-number {
+
+    color: var(--dark-gold);
+
+    font-size: 10px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+
+.sponsor-card h3 {
+
+    font-family: Cinzel, serif;
+
+    color: var(--maroon);
+
+    font-size: 22px;
+
+    margin: 9px 0;
+}
+
+
+.package-price {
+
+    color: var(--dark-gold);
+
+    font-size: 23px;
+
+    font-weight: 700;
+
+    margin-bottom: 17px;
+}
+
+
+.sponsor-card ul {
+
+    list-style: none;
+
+    margin-bottom: 20px;
+}
+
+
+.sponsor-card li {
+
+    color: var(--muted);
+
+    font-size: 12px;
+
+    margin-bottom: 8px;
+}
+
+
+.sponsor-card li::before {
+
+    content: "✓";
+
+    color: var(--dark-gold);
+
+    font-weight: bold;
+
+    margin-right: 8px;
+}
+
+
+.package-button {
+
+    display: block;
+
+    text-align: center;
+
+    padding: 10px;
+
+    border-radius: 7px;
+
+    background: var(--maroon);
+
+    color: white;
+
+    font-size: 11px;
+
+    font-weight: 700;
+}
+
+
+.package-button:hover {
+
+    background: var(--dark-maroon);
+}
+
+
+/* =====================================================
+   BRAND VISIBILITY
+===================================================== */
+
+.brand-section {
+
+    padding: 90px 7%;
+
+    background:
+        linear-gradient(
+            135deg,
+            #18110e,
+            #2b1b13
+        );
+
+    color: white;
+}
+
+
+.visibility-grid {
+
+    max-width: 1100px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4,1fr);
+
+    gap: 18px;
+}
+
+
+.visibility-grid > div {
+
+    padding: 23px 19px;
+
+    border:
+        1px solid
+        rgba(255,215,106,0.2);
+
+    background:
+        rgba(255,255,255,0.04);
+
+    border-radius: 12px;
+}
+
+
+.visibility-grid span {
+
+    color: #ffd76a;
+
+    font-size: 11px;
+
+    font-weight: 800;
+}
+
+
+.visibility-grid h3 {
+
+    font-family: Cinzel, serif;
+
+    font-size: 18px;
+
+    margin: 9px 0;
+}
+
+
+.visibility-grid p {
+
+    color: #cdbfb5;
+
+    font-size: 11px;
+}
+
+
+/* =====================================================
+   CONTACT
+===================================================== */
+
+.contact-section {
+
+    padding: 90px 7%;
+
+    text-align: center;
+
+    background: var(--cream);
+}
+
+
+.contact-container {
+
+    max-width: 950px;
+
+    margin: auto;
+}
+
+
+.contact-label {
+
+    color: var(--dark-gold);
+
+    font-size: 11px;
+
+    letter-spacing: 2px;
+
+    font-weight: 800;
+}
+
+
+.contact-container h2 {
+
+    font-family: Cinzel, serif;
+
+    font-size: clamp(
+        30px,
+        4vw,
+        48px
+    );
+
+    line-height: 1.2;
+
+    margin: 9px 0;
+}
+
+
+.contact-container > p {
+
+    color: var(--muted);
+
+    font-size: 13px;
+}
+
+
+.contact-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3,1fr);
+
+    gap: 14px;
+
+    margin-top: 32px;
+}
+
+
+.contact-card {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 17px;
+
+    background: white;
+
+    border: 1px solid var(--border);
+
+    border-radius: 10px;
+
+    text-align: left;
+
+    box-shadow:
+        0 8px 20px
+        rgba(40,20,5,0.05);
+
+    transition: 0.2s;
+}
+
+
+.contact-card:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow: var(--shadow);
+}
+
+
+.contact-icon {
+
+    font-size: 24px;
+}
+
+
+.contact-card small {
+
+    display: block;
+
+    color: var(--muted);
+
+    font-size: 9px;
+}
+
+
+.contact-card strong {
+
+    display: block;
+
+    color: var(--maroon);
+
+    font-size: 13px;
+}
+
+
+.contact-location {
+
+    margin-top: 23px;
+
+    color: var(--maroon);
+
+    font-weight: 600;
+
+    font-size: 13px;
+}
+
+
+.contact-buttons {
+
+    justify-content: center;
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+footer {
+
+    padding: 48px 7% 23px;
+
+    background: #17110e;
+
+    color: white;
+
+    text-align: center;
+}
+
+
+.footer-symbol {
+
+    width: 48px;
+
+    height: 48px;
+
+    border-radius: 50%;
+
+    display: grid;
+
+    place-items: center;
+
+    margin: auto;
+
+    background: var(--maroon);
+
+    color: #ffd76a;
+
+    border: 1px solid #d9aa45;
+
+    font-size: 27px;
+}
+
+
+.footer-logo h3 {
+
+    font-family: Cinzel, serif;
+
+    color: #ffd76a;
+
+    margin-top: 13px;
+}
+
+
+.footer-logo p {
+
+    color: #bcaea4;
+
+    font-size: 11px;
+}
+
+
+.footer-links {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 19px;
+
+    margin: 27px 0;
+}
+
+
+.footer-links a {
+
+    color: #cdbfb5;
+
+    font-size: 11px;
+}
+
+
+.footer-links a:hover {
+
+    color: #ffd76a;
+}
+
+
+.footer-bottom {
+
+    padding-top: 18px;
+
+    border-top:
+        1px solid
+        rgba(255,255,255,0.1);
+
+    color: #9c8f87;
+
+    font-size: 10px;
+}
+
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media(max-width:1050px) {
+
+    .nav-links {
+
+        gap: 10px;
+    }
+
+
+    .hero {
+
+        grid-template-columns: 1fr;
+
+        text-align: center;
+    }
+
+
+    .hero-content {
+
+        margin: auto;
+    }
+
+
+    .hero-buttons {
+
+        justify-content: center;
+    }
+
+
+    .about-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .about-content {
+
+        text-align: center;
+    }
+
+
+    .about-facts {
+
+        justify-content: center;
+    }
+
+
+    .benefit-grid {
+
+        grid-template-columns:
+            repeat(2,1fr);
+    }
+
+
+    .visibility-grid {
+
+        grid-template-columns:
+            repeat(2,1fr);
+    }
+}
+
+
+@media(max-width:850px) {
+
+    .menu-button {
+
+        display: block;
+    }
+
+
+    .nav-links {
+
+        display: none;
+
+        position: absolute;
+
+        left: 0;
+
+        right: 0;
+
+        top: 76px;
+
+        padding: 18px 5%;
+
+        background: var(--cream);
+
+        border-bottom:
+            1px solid var(--border);
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+        gap: 0;
+    }
+
+
+    .nav-links.active {
+
+        display: flex;
+    }
+
+
+    .nav-links > a {
+
+        text-align: center;
+
+        padding: 10px;
+
+        border-bottom:
+            1px solid var(--border);
+    }
+
+
+    .language-selector {
+
+        margin-top: 10px;
+    }
+
+
+    .language-button {
+
+        width: 100%;
+    }
+
+
+    .language-menu {
+
+        position: static;
+
+        width: 100%;
+
+        margin-top: 7px;
+    }
+
+
+    .stats {
+
+        grid-template-columns:
+            repeat(2,1fr);
+    }
+
+
+    .legacy-content {
+
+        grid-template-columns: 1fr;
+
+        text-align: center;
+    }
+
+
+    .advertising-grid,
+    .sponsor-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .contact-grid {
+
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media(max-width:600px) {
+
+    .hero {
+
+        padding: 50px 5%;
+    }
+
+
+    .hero-image img {
+
+        height: 430px;
+    }
+
+
+    .section,
+    .dark-section,
+    .brand-section,
+    .contact-section {
+
+        padding: 65px 5%;
+    }
+
+
+    .benefit-grid,
+    .visibility-grid,
+    .memories-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .memory-photo img {
+
+        height: 430px;
+    }
+
+
+    .stats {
+
+        padding: 20px 5%;
+    }
+
+
+    .legacy-content {
+
+        padding: 30px 20px;
+    }
+
+
+    .sponsor-card.featured {
+
+        transform: none;
+    }
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVIGATION
+===================================================== -->
+
+<header class="navbar">
+
+    <a href="#home"
+       class="logo">
+
+        <div class="logo-symbol">
+            ॐ
+        </div>
+
+        <div class="logo-text">
+
+            <strong data-i18n="brandName">
+                KAKAJI NAGAR
+            </strong>
+
+            <small data-i18n="brandSubtitle">
+                GANESH UTSAV MITRA MANDAL
+            </small>
+
+        </div>
+
+    </a>
+
+
+    <nav class="nav-links"
+         id="navLinks">
+
+        <a href="#home"
+           data-i18n="navHome">
+            Home
+        </a>
+
+        <a href="#about"
+           data-i18n="navAbout">
+            About
+        </a>
+
+        <a href="#legacy"
+           data-i18n="navLegacy">
+            Legacy
+        </a>
+
+        <a href="#memories"
+           data-i18n="navMemories">
+            Memories
+        </a>
+
+        <a href="#advertising"
+           data-i18n="navAdvertising">
+            Advertising
+        </a>
+
+        <a href="#sponsorship"
+           data-i18n="navSponsorship">
+            Sponsorship
+        </a>
+
+        <a href="#contact"
+           data-i18n="navContact">
+            Contact
+        </a>
+
+
+        <a href="https://www.kakajinagarmitramandal.org/"
+           target="_blank"
+           rel="noopener noreferrer"
+           data-i18n="officialWebsite">
+
+            Official Website ↗
+
+        </a>
+
+
+        <!-- LANGUAGE -->
+
+        <div class="language-selector">
+
+            <button type="button"
+                    class="language-button"
+                    id="languageButton">
+
+                🌐 English ▾
+
+            </button>
+
+
+            <div class="language-menu"
+                 id="languageMenu">
+
+                <button type="button"
+                        data-language="en">
+
+                    English
+
+                </button>
+
+                <button type="button"
+                        data-language="mr">
+
+                    मराठी
+
+                </button>
+
+                <button type="button"
+                        data-language="hi">
+
+                    हिन्दी
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <button type="button"
+            class="menu-button"
+            id="menuButton">
+
+        ☰
+
+    </button>
+
+</header>
+
+
+
+<!-- =====================================================
+     MAIN
+===================================================== -->
+
+<main>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section id="home"
+         class="hero">
+
+
+    <div class="hero-content">
+
+
+        <div class="hero-badge"
+             data-i18n="heroBadge">
+
+            🙏 SHRI GANESHAYA NAMAH
+
+        </div>
+
+
+        <div class="hero-small"
+             data-i18n="heroSmall">
+
+            GANESHOTSAV 2026
+
+        </div>
+
+
+        <h1>
+
+            <span class="hero-number"
+                  data-i18n="heroNumber">
+
+                35th
+
+            </span>
+
+
+            <span class="hero-years"
+                  data-i18n="heroYears">
+
+                YEAR
+
+            </span>
+
+        </h1>
+
+
+        <h2 data-i18n="mandalName">
+
+            KAKAJI NAGAR
+
+        </h2>
+
+
+        <h3 data-i18n="mandalFullName">
+
+            SARVAJANIK SHREE GANESH UTSAV MITRA MANDAL
+
+        </h3>
+
+
+        <div class="hero-location"
+             data-i18n="location">
+
+            📍 Goregaon West, Mumbai
+
+        </div>
+
+
+        <p class="hero-description"
+           data-i18n="heroDescription">
+
+            Established on 31 August 1992, our Mandal represents
+            faith, tradition, culture and community. In 2026,
+            we proudly celebrate our 35th year and invite
+            businesses and organizations to become part of
+            our Ganeshotsav through sponsorship and advertising.
+
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a href="#sponsorship"
+               class="btn btn-primary"
+               data-i18n="becomeSponsor">
+
+                🤝 Become a Sponsor
+
+            </a>
+
+
+            <a href="#advertising"
+               class="btn btn-secondary"
+               data-i18n="advertisingButton">
+
+                📢 Advertising Opportunities
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="hero-image">
+
+        <img src="images/Image_5.png"
+             alt="Kakaji Nagar Ganpati">
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     STATS
+===================================================== -->
+
+<section class="stats">
+
+
+    <div class="stat-card">
+
+        <span>🕉️</span>
+
+        <h2 data-i18n="stat1Number">
+            35th
+        </h2>
+
+        <p data-i18n="stat1Text">
+            Year Celebration
+        </p>
+
+    </div>
+
+
+    <div class="stat-card">
+
+        <span>📅</span>
+
+        <h2 data-i18n="stat2Number">
+            1992
+        </h2>
+
+        <p data-i18n="stat2Text">
+            Established
+        </p>
+
+    </div>
+
+
+    <div class="stat-card">
+
+        <span>📍</span>
+
+        <h2 data-i18n="stat3Number">
+            Goregaon
+        </h2>
+
+        <p data-i18n="stat3Text">
+            West, Mumbai
+        </p>
+
+    </div>
+
+
+    <div class="stat-card">
+
+        <span>🤝</span>
+
+        <h2 data-i18n="stat4Number">
+            2026
+        </h2>
+
+        <p data-i18n="stat4Text">
+            Sponsorship Open
+        </p>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section id="about"
+         class="section">
+
+
+    <div class="section-heading">
+
+        <span data-i18n="aboutNumber">
+            01 / ABOUT US
+        </span>
+
+        <h2 data-i18n="aboutTitle">
+            More Than A Celebration
+        </h2>
+
+        <p data-i18n="aboutSubtitle">
+            A journey of faith, tradition and community.
+        </p>
+
+    </div>
+
+
+
+    <div class="about-grid">
+
+
+        <div class="about-image">
+
+            <img src="images/Image_1.png"
+                 alt="Ganpati Idol"
+                 loading="lazy">
+
+        </div>
+
+
+
+        <div class="about-content">
+
+
+            <div class="established-box">
+
+                <span data-i18n="establishedLabel">
+                    ESTABLISHED
+                </span>
+
+                <strong data-i18n="establishedDate">
+                    31 AUGUST 1992
+                </strong>
+
+            </div>
+
+
+            <h3 data-i18n="aboutHeading">
+
+                Kakaji Nagar Sarvajanik
+                Shree Ganesh Utsav Mitra Mandal
+
+            </h3>
+
+
+            <p data-i18n="aboutPara1">
+
+                Kakaji Nagar Sarvajanik Shree Ganesh Utsav
+                Mitra Mandal was established on 31 August
+                1992 in Goregaon West, Mumbai.
+
+            </p>
+
+
+            <p data-i18n="aboutPara2">
+
+                For more than three decades, our Mandal has
+                brought the community together through
+                Ganeshotsav, devotion, culture and togetherness.
+
+            </p>
+
+
+            <p data-i18n="aboutPara3">
+
+                In 2026, we are celebrating our 35th year and
+                inviting businesses and organizations to
+                become part of our celebration through
+                sponsorship and advertising.
+
+            </p>
+
+
+
+            <div class="about-facts">
+
+
+                <div>
+
+                    <strong data-i18n="aboutFact1Number">
+                        1992
+                    </strong>
+
+                    <span data-i18n="aboutFact1Text">
+                        Established
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <strong data-i18n="aboutFact2Number">
+                        35th
+                    </strong>
+
+                    <span data-i18n="aboutFact2Text">
+                        Year
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <strong data-i18n="aboutFact3Number">
+                        2026
+                    </strong>
+
+                    <span data-i18n="aboutFact3Text">
+                        Ganeshotsav
+                    </span>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     WHY PARTNER
+===================================================== -->
+
+<section class="dark-section">
+
+
+    <div class="section-heading light">
+
+        <span data-i18n="whyNumber">
+            02 / WHY PARTNER WITH US?
+        </span>
+
+        <h2 data-i18n="whyTitle">
+            Give Your Brand a Place in Our Celebration
+        </h2>
+
+        <p data-i18n="whySubtitle">
+            Connect your business with the local community
+            during Ganeshotsav 2026.
+        </p>
+
+    </div>
+
+
+
+    <div class="benefit-grid">
+
+
+        <div class="benefit-card">
+
+            <div class="benefit-icon">
+                📍
+            </div>
+
+            <h3 data-i18n="benefit1Title">
+                Prime Location
+            </h3>
+
+            <p data-i18n="benefit1Text">
+                Located in Goregaon West, Mumbai,
+                near Goregaon Station West.
+            </p>
+
+        </div>
+
+
+
+        <div class="benefit-card">
+
+            <div class="benefit-icon">
+                👥
+            </div>
+
+            <h3 data-i18n="benefit2Title">
+                Community Connection
+            </h3>
+
+            <p data-i18n="benefit2Text">
+                Connect your business with devotees,
+                residents, families and visitors.
+            </p>
+
+        </div>
+
+
+
+        <div class="benefit-card">
+
+            <div class="benefit-icon">
+                📢
+            </div>
+
+            <h3 data-i18n="benefit3Title">
+                Brand Visibility
+            </h3>
+
+            <p data-i18n="benefit3Text">
+                Promote your business through available
+                advertising opportunities.
+            </p>
+
+        </div>
+
+
+
+        <div class="benefit-card">
+
+            <div class="benefit-icon">
+                ❤️
+            </div>
+
+            <h3 data-i18n="benefit4Title">
+                Community Association
+            </h3>
+
+            <p data-i18n="benefit4Text">
+                Associate your brand with a
+                long-standing cultural celebration.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     LEGACY
+===================================================== -->
+
+<section id="legacy"
+         class="section">
+
+
+    <div class="section-heading">
+
+        <span data-i18n="legacyNumber">
+            03 / OUR LEGACY
+        </span>
+
+        <h2 data-i18n="legacyTitle">
+            Our Journey Since 1992
+        </h2>
+
+        <p data-i18n="legacySubtitle">
+            A tradition of faith, culture and community.
+        </p>
+
+    </div>
+
+
+
+    <div class="legacy-content">
+
+
+        <div class="legacy-year">
+
+            <strong data-i18n="legacyYear">
+                1992
+            </strong>
+
+            <span data-i18n="legacyYearText">
+                ESTABLISHED
+            </span>
+
+        </div>
+
+
+
+        <div class="legacy-text">
+
+            <h3 data-i18n="legacyHeading">
+                A Journey That Continues
+            </h3>
+
+
+            <p data-i18n="legacyPara1">
+
+                Our journey began on 31 August 1992.
+                Since then, Ganeshotsav has remained an
+                important part of the Kakaji Nagar community.
+
+            </p>
+
+
+            <p data-i18n="legacyPara2">
+
+                Every year, our Ganpati celebration brings
+                together faith, creativity, culture and
+                community spirit.
+
+            </p>
+
+
+            <p data-i18n="legacyPara3">
+
+                In 2026, we proudly celebrate our 35th year
+                and continue this tradition with the support
+                of our community, well-wishers and partners.
+
+            </p>
+
+
+            <a href="https://www.kakajinagarmitramandal.org/"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="text-link"
+               data-i18n="readOfficialWebsite">
+
+                Learn More About Our Mandal ↗
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     MEMORIES
+===================================================== -->
+
+<section id="memories"
+         class="section memories-section">
+
+
+    <div class="section-heading">
+
+        <span data-i18n="memoriesNumber">
+            04 / MEMORIES
+        </span>
+
+        <h2 data-i18n="memoriesTitle">
+            Moments From Our Journey
+        </h2>
+
+        <p data-i18n="memoriesSubtitle">
+            Photos from our Ganeshotsav celebrations.
+        </p>
+
+    </div>
+
+
+
+    <div class="memories-grid">
+
+
+        <div class="memory-photo">
+            <img src="images/Image_2.png"
+                 alt="Ganeshotsav Memory"
+                 loading="lazy">
+        </div>
+
+
+        <div class="memory-photo">
+            <img src="images/Image_3.png"
+                 alt="Ganeshotsav Memory"
+                 loading="lazy">
+        </div>
+
+
+        <div class="memory-photo">
+            <img src="images/Image_4.png"
+                 alt="Ganeshotsav Memory"
+                 loading="lazy">
+        </div>
+
+
+        <div class="memory-photo">
+            <img src="images/Image_6.png"
+                 alt="Ganeshotsav Memory"
+                 loading="lazy">
+        </div>
+
+
+        <div class="memory-photo">
+            <img src="images/Image_7.png"
+                 alt="Ganeshotsav Memory"
+                 loading="lazy">
+        </div>
+
+
+        <div class="memory-photo">
+            <img src="images/Image_8.png"
+                 alt="Ganeshotsav Memory"
+                 loading="lazy">
+        </div>
+
+
+        <div class="memory-photo">
+            <img src="images/Image_9.png"
+                 alt="Ganeshotsav Memory"
+                 loading="lazy">
+        </div>
+
+
+        <div class="memory-photo">
+            <img src="images/Image_10.png"
+                 alt="Ganeshotsav Memory"
+                 loading="lazy">
+        </div>
+
+
+        <div class="memory-photo">
+            <img src="images/Image_11.png"
+                 alt="Ganeshotsav Memory"
+                 loading="lazy">
+        </div>
+
+
+        <div class="memory-photo">
+            <img src="images/Image_12.png"
+                 alt="Ganeshotsav Memory"
+                 loading="lazy">
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ADVERTISING
+===================================================== -->
+
+<section id="advertising"
+         class="dark-section">
+
+
+    <div class="section-heading light">
+
+        <span data-i18n="advertisingNumber">
+            05 / ADVERTISING
+        </span>
+
+        <h2 data-i18n="advertisingTitle">
+            Advertising Opportunities
+        </h2>
+
+        <p data-i18n="advertisingSubtitle">
+            Put your brand where the community comes together.
+        </p>
+
+    </div>
+
+
+
+    <div class="advertising-grid">
+
+
+        <div class="advertising-card">
+
+            <div class="ad-icon">
+                🚪
+            </div>
+
+            <h3 data-i18n="ad1Title">
+                Main Entrance Branding
+            </h3>
+
+            <p data-i18n="ad1Text">
+                Display your brand prominently
+                at the main entrance.
+            </p>
+
+            <strong data-i18n="available">
+                AVAILABLE
+            </strong>
+
+        </div>
+
+
+
+        <div class="advertising-card">
+
+            <div class="ad-icon">
+                🛣️
+            </div>
+
+            <h3 data-i18n="ad2Title">
+                Front Road Hoardings
+            </h3>
+
+            <p data-i18n="ad2Text">
+                Showcase your business through
+                front road advertising.
+            </p>
+
+            <strong data-i18n="available">
+                AVAILABLE
+            </strong>
+
+        </div>
+
+
+
+        <div class="advertising-card">
+
+            <div class="ad-icon">
+                🪧
+            </div>
+
+            <h3 data-i18n="ad3Title">
+                Side Wall Banners
+            </h3>
+
+            <p data-i18n="ad3Text">
+                Dedicated banner spaces
+                for your brand.
+            </p>
+
+            <strong data-i18n="available">
+                AVAILABLE
+            </strong>
+
+        </div>
+
+
+
+        <div class="advertising-card">
+
+            <div class="ad-icon">
+                🏛️
+            </div>
+
+            <h3 data-i18n="ad4Title">
+                Gate Branding
+            </h3>
+
+            <p data-i18n="ad4Text">
+                Increase brand visibility
+                through gate branding.
+            </p>
+
+            <strong data-i18n="available">
+                AVAILABLE
+            </strong>
+
+        </div>
+
+
+
+        <div class="advertising-card">
+
+            <div class="ad-icon">
+                🤝
+            </div>
+
+            <h3 data-i18n="ad5Title">
+                Event Sponsorship
+            </h3>
+
+            <p data-i18n="ad5Text">
+                Associate your brand with
+                Ganeshotsav 2026 activities.
+            </p>
+
+            <strong data-i18n="open">
+                OPEN
+            </strong>
+
+        </div>
+
+
+
+        <div class="advertising-card">
+
+            <div class="ad-icon">
+                ₹
+            </div>
+
+            <h3 data-i18n="priceTitle">
+                Advertising Starts From
+            </h3>
+
+            <p data-i18n="priceText">
+                Contact our team for available
+                locations and pricing.
+            </p>
+
+            <strong data-i18n="price">
+                ₹5,000+
+            </strong>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SPONSORSHIP
+===================================================== -->
+
+<section id="sponsorship"
+         class="section">
+
+
+    <div class="section-heading">
+
+        <span data-i18n="sponsorNumber">
+            06 / SPONSORSHIP
+        </span>
+
+        <h2 data-i18n="sponsorTitle">
+            Become a Sponsor
+        </h2>
+
+        <p data-i18n="sponsorSubtitle">
+            Make your brand part of Ganeshotsav 2026.
+        </p>
+
+    </div>
+
+
+
+    <div class="sponsor-grid">
+
+
+        <!-- TITLE PARTNER -->
+
+        <div class="sponsor-card">
+
+            <span class="package-number">
+                01
+            </span>
+
+            <h3 data-i18n="titlePartner">
+                Title Partner
+            </h3>
+
+            <div class="package-price"
+                 data-i18n="discuss">
+
+                Let's Discuss
+
+            </div>
+
+
+            <ul>
+
+                <li data-i18n="titleBenefit1">
+                    Premium branding opportunity
+                </li>
+
+                <li data-i18n="titleBenefit2">
+                    Main advertising placement
+                </li>
+
+                <li data-i18n="titleBenefit3">
+                    Gate and entrance branding
+                </li>
+
+                <li data-i18n="titleBenefit4">
+                    Social media promotion
+                </li>
+
+                <li data-i18n="titleBenefit5">
+                    Event announcements
+                </li>
+
+                <li data-i18n="titleBenefit6">
+                    Sponsor recognition
+                </li>
+
+            </ul>
+
+
+            <a class="package-button"
+               target="_blank"
+               rel="noopener noreferrer"
+               href="https://wa.me/919821972767?text=Hello%2C%20I%20am%20interested%20in%20the%20Title%20Partner%20sponsorship%20for%20Ganeshotsav%202026.">
+
+                <span data-i18n="enquire">
+                    💬 Enquire on WhatsApp
+                </span>
+
+            </a>
+
+        </div>
+
+
+
+        <!-- GOLD PARTNER -->
+
+        <div class="sponsor-card featured">
+
+            <div class="popular"
+                 data-i18n="popular">
+
+                POPULAR
+
+            </div>
+
+
+            <span class="package-number">
+                02
+            </span>
+
+
+            <h3 data-i18n="goldPartner">
+                Gold Partner
+            </h3>
+
+
+            <div class="package-price"
+                 data-i18n="discuss">
+
+                Let's Discuss
+
+            </div>
+
+
+            <ul>
+
+                <li data-i18n="goldBenefit1">
+                    Premium banner placement
+                </li>
+
+                <li data-i18n="goldBenefit2">
+                    Logo visibility
+                </li>
+
+                <li data-i18n="goldBenefit3">
+                    Social media mention
+                </li>
+
+                <li data-i18n="goldBenefit4">
+                    Event promotion
+                </li>
+
+                <li data-i18n="goldBenefit5">
+                    Sponsor acknowledgement
+                </li>
+
+            </ul>
+
+
+            <a class="package-button"
+               target="_blank"
+               rel="noopener noreferrer"
+               href="https://wa.me/919821972767?text=Hello%2C%20I%20am%20interested%20in%20the%20Gold%20Partner%20sponsorship%20for%20Ganeshotsav%202026.">
+
+                <span data-i18n="enquire">
+                    💬 Enquire on WhatsApp
+                </span>
+
+            </a>
+
+        </div>
+
+
+
+        <!-- COMMUNITY PARTNER -->
+
+        <div class="sponsor-card">
+
+            <span class="package-number">
+                03
+            </span>
+
+
+            <h3 data-i18n="communityPartner">
+                Community Partner
+            </h3>
+
+
+            <div class="package-price"
+                 data-i18n="discuss">
+
+                Let's Discuss
+
+            </div>
+
+
+            <ul>
+
+                <li data-i18n="communityBenefit1">
+                    Logo placement
+                </li>
+
+                <li data-i18n="communityBenefit2">
+                    Banner opportunity
+                </li>
+
+                <li data-i18n="communityBenefit3">
+                    Social media acknowledgement
+                </li>
+
+                <li data-i18n="communityBenefit4">
+                    Community recognition
+                </li>
+
+            </ul>
+
+
+            <a class="package-button"
+               target="_blank"
+               rel="noopener noreferrer"
+               href="https://wa.me/919821972767?text=Hello%2C%20I%20am%20interested%20in%20the%20Community%20Partner%20opportunity%20for%20Ganeshotsav%202026.">
+
+                <span data-i18n="enquire">
+                    💬 Enquire on WhatsApp
+                </span>
+
+            </a>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     BRAND VISIBILITY
+===================================================== -->
+
+<section class="brand-section">
+
+
+    <div class="section-heading light">
+
+        <span data-i18n="visibilityNumber">
+            07 / BRAND VISIBILITY
+        </span>
+
+        <h2 data-i18n="visibilityTitle">
+            Where Your Brand Can Appear
+        </h2>
+
+    </div>
+
+
+
+    <div class="visibility-grid">
+
+
+        <div>
+
+            <span>01</span>
+
+            <h3 data-i18n="visibility1Title">
+                Main Entrance
+            </h3>
+
+            <p data-i18n="visibility1Text">
+                Your brand can be prominently
+                displayed at the entrance.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <span>02</span>
+
+            <h3 data-i18n="visibility2Title">
+                Gate Branding
+            </h3>
+
+            <p data-i18n="visibility2Text">
+                Increase visibility through
+                celebration gate branding.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <span>03</span>
+
+            <h3 data-i18n="visibility3Title">
+                Road Hoardings
+            </h3>
+
+            <p data-i18n="visibility3Text">
+                Reach people travelling through
+                the surrounding area.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <span>04</span>
+
+            <h3 data-i18n="visibility4Title">
+                Digital Promotion
+            </h3>
+
+            <p data-i18n="visibility4Text">
+                Promote your brand through
+                digital communication.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section id="contact"
+         class="contact-section">
+
+
+    <div class="contact-container">
+
+
+        <span class="contact-label"
+              data-i18n="contactNumber">
+
+            08 / CONTACT
+
+        </span>
+
+
+        <h2 data-i18n="contactTitle">
+
+            Make Your Brand Part
+            of Our Celebration
+
+        </h2>
+
+
+        <p data-i18n="contactText">
+
+            Interested in advertising or sponsoring
+            Ganeshotsav 2026? Contact our Mandal team
+            for sponsorship and advertising details.
+
+        </p>
+
+
+
+        <div class="contact-grid">
+
+
+            <a class="contact-card"
+               href="https://wa.me/919821972767"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                <div class="contact-icon">
+                    💬
+                </div>
+
+                <div>
+
+                    <small>
+                        Sachin Shelar
+                    </small>
+
+                    <strong>
+                        9821972767
+                    </strong>
+
+                </div>
+
+            </a>
+
+
+
+            <a class="contact-card"
+               href="https://wa.me/919920899541"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                <div class="contact-icon">
+                    💬
+                </div>
+
+                <div>
+
+                    <small>
+                        Hemant Vengurlekar
+                    </small>
+
+                    <strong>
+                        9920899541
+                    </strong>
+
+                </div>
+
+            </a>
+
+
+
+            <a class="contact-card"
+               href="https://wa.me/918779623083"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                <div class="contact-icon">
+                    💬
+                </div>
+
+                <div>
+
+                    <small>
+                        Aakash Thakur
+                    </small>
+
+                    <strong>
+                        8779623083
+                    </strong>
+
+                </div>
+
+            </a>
+
+
+        </div>
+
+
+
+        <div class="contact-location"
+             data-i18n="contactAddress">
+
+            📍 Kakaji Nagar,
+            Goregaon West, Mumbai
+
+        </div>
+
+
+
+        <div class="contact-buttons">
+
+
+            <a class="btn btn-primary"
+               target="_blank"
+               rel="noopener noreferrer"
+               href="https://wa.me/919821972767?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20sponsorship%20and%20advertising%20opportunities%20for%20Ganeshotsav%202026.">
+
+                <span data-i18n="whatsappSponsor">
+
+                    💬 WhatsApp for Sponsorship
+
+                </span>
+
+            </a>
+
+
+            <a class="btn btn-secondary"
+               target="_blank"
+               rel="noopener noreferrer"
+               href="https://www.kakajinagarmitramandal.org/">
+
+                <span data-i18n="visitWebsite">
+
+                    🌐 Visit Official Website
+
+                </span>
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+
+    <div class="footer-logo">
+
+
+        <div class="footer-symbol">
+            ॐ
+        </div>
+
+
+        <h3 data-i18n="footerBrand">
+            KAKAJI NAGAR
+        </h3>
+
+
+        <p data-i18n="footerMandal">
+            Sarvajanik Shree Ganesh Utsav Mitra Mandal
+        </p>
+
+
+        <p data-i18n="footerLocation">
+            Goregaon West, Mumbai
+        </p>
+
+
+    </div>
+
+
+
+    <div class="footer-links">
+
+        <a href="#home"
+           data-i18n="navHome">
+            Home
+        </a>
+
+        <a href="#about"
+           data-i18n="navAbout">
+            About
+        </a>
+
+        <a href="#legacy"
+           data-i18n="navLegacy">
+            Legacy
+        </a>
+
+        <a href="#memories"
+           data-i18n="navMemories">
+            Memories
+        </a>
+
+        <a href="#advertising"
+           data-i18n="navAdvertising">
+            Advertising
+        </a>
+
+        <a href="#sponsorship"
+           data-i18n="navSponsorship">
+            Sponsorship
+        </a>
+
+        <a href="#contact"
+           data-i18n="navContact">
+            Contact
+        </a>
+
+    </div>
+
+
+
+    <div class="footer-bottom">
+
+        <p data-i18n="copyright">
+
+            © 2026 Kakaji Nagar Sarvajanik
+            Shree Ganesh Utsav Mitra Mandal.
+            All Rights Reserved.
+
+        </p>
+
+
+        <p data-i18n="bappaMorya">
+
+            Ganpati Bappa Morya 🙏
+
+        </p>
+
+    </div>
+
+
+</footer>
+
+
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script>
+
+
+/* =====================================================
+   TRANSLATIONS
+===================================================== */
+
+const translations = {
+
+
+    /* =================================================
+       ENGLISH
+    ================================================= */
+
+    en: {
+
+        brandName:
+            "KAKAJI NAGAR",
+
+        brandSubtitle:
+            "GANESH UTSAV MITRA MANDAL",
+
+        navHome:
+            "Home",
+
+        navAbout:
+            "About",
+
+        navLegacy:
+            "Legacy",
+
+        navMemories:
+            "Memories",
+
+        navAdvertising:
+            "Advertising",
+
+        navSponsorship:
+            "Sponsorship",
+
+        navContact:
+            "Contact",
+
+        officialWebsite:
+            "Official Website ↗",
+
+
+        heroBadge:
+            "🙏 SHRI GANESHAYA NAMAH",
+
+        heroSmall:
+            "GANESHOTSAV 2026",
+
+        heroNumber:
+            "35th",
+
+        heroYears:
+            "YEAR",
+
+        mandalName:
+            "KAKAJI NAGAR",
+
+        mandalFullName:
+            "SARVAJANIK SHREE GANESH UTSAV MITRA MANDAL",
+
+        location:
+            "📍 Goregaon West, Mumbai",
+
+        heroDescription:
+            "Established on 31 August 1992, our Mandal represents faith, tradition, culture and community. In 2026, we proudly celebrate our 35th year and invite businesses and organizations to become part of our Ganeshotsav through sponsorship and advertising.",
+
+        becomeSponsor:
+            "🤝 Become a Sponsor",
+
+        advertisingButton:
+            "📢 Advertising Opportunities",
+
+
+        stat1Number:
+            "35th",
+
+        stat1Text:
+            "Year Celebration",
+
+        stat2Number:
+            "1992",
+
+        stat2Text:
+            "Established",
+
+        stat3Number:
+            "Goregaon",
+
+        stat3Text:
+            "West, Mumbai",
+
+        stat4Number:
+            "2026",
+
+        stat4Text:
+            "Sponsorship Open",
+
+
+        aboutNumber:
+            "01 / ABOUT US",
+
+        aboutTitle:
+            "More Than A Celebration",
+
+        aboutSubtitle:
+            "A journey of faith, tradition and community.",
+
+        establishedLabel:
+            "ESTABLISHED",
+
+        establishedDate:
+            "31 AUGUST 1992",
+
+        aboutHeading:
+            "Kakaji Nagar Sarvajanik Shree Ganesh Utsav Mitra Mandal",
+
+        aboutPara1:
+            "Kakaji Nagar Sarvajanik Shree Ganesh Utsav Mitra Mandal was established on 31 August 1992 in Goregaon West, Mumbai.",
+
+        aboutPara2:
+            "For more than three decades, our Mandal has brought the community together through Ganeshotsav, devotion, culture and togetherness.",
+
+        aboutPara3:
+            "In 2026, we are celebrating our 35th year and inviting businesses and organizations to become part of our celebration through sponsorship and advertising.",
+
+        aboutFact1Number:
+            "1992",
+
+        aboutFact1Text:
+            "Established",
+
+        aboutFact2Number:
+            "35th",
+
+        aboutFact2Text:
+            "Year",
+
+        aboutFact3Number:
+            "2026",
+
+        aboutFact3Text:
+            "Ganeshotsav",
+
+
+        whyNumber:
+            "02 / WHY PARTNER WITH US?",
+
+        whyTitle:
+            "Give Your Brand a Place in Our Celebration",
+
+        whySubtitle:
+            "Connect your business with the local community during Ganeshotsav 2026.",
+
+        benefit1Title:
+            "Prime Location",
+
+        benefit1Text:
+            "Located in Goregaon West, Mumbai, near Goregaon Station West.",
+
+        benefit2Title:
+            "Community Connection",
+
+        benefit2Text:
+            "Connect your business with devotees, residents, families and visitors.",
+
+        benefit3Title:
+            "Brand Visibility",
+
+        benefit3Text:
+            "Promote your business through available advertising opportunities.",
+
+        benefit4Title:
+            "Community Association",
+
+        benefit4Text:
+            "Associate your brand with a long-standing cultural celebration.",
+
+
+        legacyNumber:
+            "03 / OUR LEGACY",
+
+        legacyTitle:
+            "Our Journey Since 1992",
+
+        legacySubtitle:
+            "A tradition of faith, culture and community.",
+
+        legacyYear:
+            "1992",
+
+        legacyYearText:
+            "ESTABLISHED",
+
+        legacyHeading:
+            "A Journey That Continues",
+
+        legacyPara1:
+            "Our journey began on 31 August 1992. Since then, Ganeshotsav has remained an important part of the Kakaji Nagar community.",
+
+        legacyPara2:
+            "Every year, our Ganpati celebration brings together faith, creativity, culture and community spirit.",
+
+        legacyPara3:
+            "In 2026, we proudly celebrate our 35th year and continue this tradition with the support of our community, well-wishers and partners.",
+
+        readOfficialWebsite:
+            "Learn More About Our Mandal ↗",
+
+
+        memoriesNumber:
+            "04 / MEMORIES",
+
+        memoriesTitle:
+            "Moments From Our Journey",
+
+        memoriesSubtitle:
+            "Photos from our Ganeshotsav celebrations.",
+
+
+        advertisingNumber:
+            "05 / ADVERTISING",
+
+        advertisingTitle:
+            "Advertising Opportunities",
+
+        advertisingSubtitle:
+            "Put your brand where the community comes together.",
+
+        ad1Title:
+            "Main Entrance Branding",
+
+        ad1Text:
+            "Display your brand prominently at the main entrance.",
+
+        ad2Title:
+            "Front Road Hoardings",
+
+        ad2Text:
+            "Showcase your business through front road advertising.",
+
+        ad3Title:
+            "Side Wall Banners",
+
+        ad3Text:
+            "Dedicated banner spaces for your brand.",
+
+        ad4Title:
+            "Gate Branding",
+
+        ad4Text:
+            "Increase brand visibility through gate branding.",
+
+        ad5Title:
+            "Event Sponsorship",
+
+        ad5Text:
+            "Associate your brand with Ganeshotsav 2026 activities.",
+
+        available:
+            "AVAILABLE",
+
+        open:
+            "OPEN",
+
+        priceTitle:
+            "Advertising Starts From",
+
+        price:
+            "₹5,000+",
+
+        priceText:
+            "Contact our team for available locations and pricing.",
+
+
+        sponsorNumber:
+            "06 / SPONSORSHIP",
+
+        sponsorTitle:
+            "Become a Sponsor",
+
+        sponsorSubtitle:
+            "Make your brand part of Ganeshotsav 2026.",
+
+        titlePartner:
+            "Title Partner",
+
+        goldPartner:
+            "Gold Partner",
+
+        communityPartner:
+            "Community Partner",
+
+        discuss:
+            "Let's Discuss",
+
+        popular:
+            "POPULAR",
+
+        titleBenefit1:
+            "Premium branding opportunity",
+
+        titleBenefit2:
+            "Main advertising placement",
+
+        titleBenefit3:
+            "Gate and entrance branding",
+
+        titleBenefit4:
+            "Social media promotion",
+
+        titleBenefit5:
+            "Event announcements",
+
+        titleBenefit6:
+            "Sponsor recognition",
+
+        goldBenefit1:
+            "Premium banner placement",
+
+        goldBenefit2:
+            "Logo visibility",
+
+        goldBenefit3:
+            "Social media mention",
+
+        goldBenefit4:
+            "Event promotion",
+
+        goldBenefit5:
+            "Sponsor acknowledgement",
+
+        communityBenefit1:
+            "Logo placement",
+
+        communityBenefit2:
+            "Banner opportunity",
+
+        communityBenefit3:
+            "Social media acknowledgement",
+
+        communityBenefit4:
+            "Community recognition",
+
+        enquire:
+            "💬 Enquire on WhatsApp",
+
+
+        visibilityNumber:
+            "07 / BRAND VISIBILITY",
+
+        visibilityTitle:
+            "Where Your Brand Can Appear",
+
+        visibility1Title:
+            "Main Entrance",
+
+        visibility1Text:
+            "Your brand can be prominently displayed at the entrance.",
+
+        visibility2Title:
+            "Gate Branding",
+
+        visibility2Text:
+            "Increase visibility through celebration gate branding.",
+
+        visibility3Title:
+            "Road Hoardings",
+
+        visibility3Text:
+            "Reach people travelling through the surrounding area.",
+
+        visibility4Title:
+            "Digital Promotion",
+
+        visibility4Text:
+            "Promote your brand through digital communication.",
+
+
+        contactNumber:
+            "08 / CONTACT",
+
+        contactTitle:
+            "Make Your Brand Part of Our Celebration",
+
+        contactText:
+            "Interested in advertising or sponsoring Ganeshotsav 2026? Contact our Mandal team for sponsorship and advertising details.",
+
+        contactAddress:
+            "📍 Kakaji Nagar, Goregaon West, Mumbai",
+
+        whatsappSponsor:
+            "💬 WhatsApp for Sponsorship",
+
+        visitWebsite:
+            "🌐 Visit Official Website",
+
+
+        footerBrand:
+            "KAKAJI NAGAR",
+
+        footerMandal:
+            "Sarvajanik Shree Ganesh Utsav Mitra Mandal",
+
+        footerLocation:
+            "Goregaon West, Mumbai",
+
+        copyright:
+            "© 2026 Kakaji Nagar Sarvajanik Shree Ganesh Utsav Mitra Mandal. All Rights Reserved.",
+
+        bappaMorya:
+            "Ganpati Bappa Morya 🙏"
+
+    },
+
+
+    /* =================================================
+       MARATHI
+    ================================================= */
+
+    mr: {
+
+        brandName:
+            "काकाजी नगर",
+
+        brandSubtitle:
+            "गणेश उत्सव मित्र मंडळ",
+
+        navHome:
+            "मुख्यपृष्ठ",
+
+        navAbout:
+            "आमच्याबद्दल",
+
+        navLegacy:
+            "आमची परंपरा",
+
+        navMemories:
+            "आठवणी",
+
+        navAdvertising:
+            "जाहिरात",
+
+        navSponsorship:
+            "प्रायोजकत्व",
+
+        navContact:
+            "संपर्क",
+
+        officialWebsite:
+            "अधिकृत संकेतस्थळ ↗",
+
+
+        heroBadge:
+            "🙏 श्री गणेशाय नमः",
+
+        heroSmall:
+            "गणेशोत्सव २०२६",
+
+        heroNumber:
+            "३५ वे",
+
+        heroYears:
+            "वर्ष",
+
+        mandalName:
+            "काकाजी नगर",
+
+        mandalFullName:
+            "सार्वजनिक श्री गणेश उत्सव मित्र मंडळ",
+
+        location:
+            "📍 गोरेगाव पश्चिम, मुंबई",
+
+        heroDescription:
+            "३१ ऑगस्ट १९९२ रोजी स्थापन झालेल्या आमच्या मंडळाचा प्रवास श्रद्धा, परंपरा, संस्कृती आणि सामाजिक एकतेवर आधारित आहे. २०२६ मध्ये आम्ही आमचे ३५ वे वर्ष साजरे करत असून व्यवसाय आणि संस्थांना प्रायोजकत्व व जाहिरातीच्या माध्यमातून आमच्या गणेशोत्सवाचा भाग होण्यासाठी आमंत्रित करत आहोत.",
+
+        becomeSponsor:
+            "🤝 प्रायोजक बना",
+
+        advertisingButton:
+            "📢 जाहिरातीच्या संधी",
+
+
+        stat1Number:
+            "३५ वे",
+
+        stat1Text:
+            "वर्षाचे सेलिब्रेशन",
+
+        stat2Number:
+            "१९९२",
+
+        stat2Text:
+            "स्थापना वर्ष",
+
+        stat3Number:
+            "गोरेगाव",
+
+        stat3Text:
+            "पश्चिम, मुंबई",
+
+        stat4Number:
+            "२०२६",
+
+        stat4Text:
+            "प्रायोजकत्व खुले",
+
+
+        aboutNumber:
+            "०१ / आमच्याबद्दल",
+
+        aboutTitle:
+            "केवळ उत्सव नाही, एक परंपरा",
+
+        aboutSubtitle:
+            "श्रद्धा, परंपरा आणि सामाजिक एकतेचा प्रवास.",
+
+        establishedLabel:
+            "स्थापना",
+
+        establishedDate:
+            "३१ ऑगस्ट १९९२",
+
+        aboutHeading:
+            "काकाजी नगर सार्वजनिक श्री गणेश उत्सव मित्र मंडळ",
+
+        aboutPara1:
+            "काकाजी नगर सार्वजनिक श्री गणेश उत्सव मित्र मंडळाची स्थापना ३१ ऑगस्ट १९९२ रोजी गोरेगाव पश्चिम, मुंबई येथे झाली.",
+
+        aboutPara2:
+            "तीन दशकांहून अधिक काळ आमचे मंडळ गणेशोत्सव, श्रद्धा, संस्कृती आणि सामाजिक एकतेच्या माध्यमातून समाजाला एकत्र आणत आहे.",
+
+        aboutPara3:
+            "२०२६ मध्ये आम्ही आमचे ३५ वे वर्ष साजरे करत आहोत आणि व्यवसाय व संस्थांना प्रायोजकत्व व जाहिरातीच्या माध्यमातून आमच्या उत्सवाचा भाग होण्यासाठी आमंत्रित करत आहोत.",
+
+        aboutFact1Number:
+            "१९९२",
+
+        aboutFact1Text:
+            "स्थापना",
+
+        aboutFact2Number:
+            "३५ वे",
+
+        aboutFact2Text:
+            "वर्ष",
+
+        aboutFact3Number:
+            "२०२६",
+
+        aboutFact3Text:
+            "गणेशोत्सव",
+
+
+        whyNumber:
+            "०२ / आमच्यासोबत का सहभागी व्हावे?",
+
+        whyTitle:
+            "आपल्या ब्रँडला आमच्या उत्सवाचा भाग बनवा",
+
+        whySubtitle:
+            "गणेशोत्सव २०२६ दरम्यान आपल्या व्यवसायाला स्थानिक समाजाशी जोडण्याची संधी.",
+
+        benefit1Title:
+            "उत्तम स्थान",
+
+        benefit1Text:
+            "गोरेगाव पश्चिम, मुंबई येथे गोरेगाव पश्चिम रेल्वे स्थानकाजवळील परिसर.",
+
+        benefit2Title:
+            "समाजाशी जोडणी",
+
+        benefit2Text:
+            "भक्त, स्थानिक रहिवासी, कुटुंबे आणि उत्सवाला भेट देणाऱ्या नागरिकांशी आपल्या व्यवसायाची जोडणी करा.",
+
+        benefit3Title:
+            "ब्रँडची प्रसिद्धी",
+
+        benefit3Text:
+            "उपलब्ध जाहिरात संधींच्या माध्यमातून आपल्या व्यवसायाची प्रसिद्धी करा.",
+
+        benefit4Title:
+            "सामाजिक सहभाग",
+
+        benefit4Text:
+            "दीर्घकाळ चालत आलेल्या सांस्कृतिक उत्सवाशी आपल्या ब्रँडची सकारात्मक जोडणी करा.",
+
+
+        legacyNumber:
+            "०३ / आमची परंपरा",
+
+        legacyTitle:
+            "१९९२ पासूनचा आमचा प्रवास",
+
+        legacySubtitle:
+            "श्रद्धा, संस्कृती आणि सामाजिक एकतेची परंपरा.",
+
+        legacyYear:
+            "१९९२",
+
+        legacyYearText:
+            "स्थापना",
+
+        legacyHeading:
+            "अखंड सुरू असलेला प्रवास",
+
+        legacyPara1:
+            "आमच्या मंडळाचा प्रवास ३१ ऑगस्ट १९९२ रोजी सुरू झाला. तेव्हापासून गणेशोत्सव हा काकाजी नगर समाजजीवनाचा महत्त्वाचा भाग राहिला आहे.",
+
+        legacyPara2:
+            "दरवर्षी आमचा गणपती उत्सव श्रद्धा, सर्जनशीलता, संस्कृती आणि सामाजिक एकतेला एकत्र आणतो.",
+
+        legacyPara3:
+            "२०२६ मध्ये आम्ही अभिमानाने आमचे ३५ वे वर्ष साजरे करत असून समाज, हितचिंतक आणि भागीदारांच्या सहकार्याने ही परंपरा पुढे नेत आहोत.",
+
+        readOfficialWebsite:
+            "आमच्या मंडळाबद्दल अधिक जाणून घ्या ↗",
+
+
+        memoriesNumber:
+            "०४ / आठवणी",
+
+        memoriesTitle:
+            "आमच्या प्रवासातील क्षण",
+
+        memoriesSubtitle:
+            "आमच्या गणेशोत्सवातील छायाचित्रे.",
+
+
+        advertisingNumber:
+            "०५ / जाहिरात",
+
+        advertisingTitle:
+            "जाहिरातीच्या संधी",
+
+        advertisingSubtitle:
+            "जिथे समाज एकत्र येतो, तिथे आपल्या ब्रँडची उपस्थिती निर्माण करा.",
+
+        ad1Title:
+            "मुख्य प्रवेशद्वार ब्रँडिंग",
+
+        ad1Text:
+            "मुख्य प्रवेशद्वारावर आपल्या ब्रँडची प्रमुख प्रसिद्धी.",
+
+        ad2Title:
+            "समोरील रस्त्यावरील होर्डिंग",
+
+        ad2Text:
+            "समोरील रस्त्यावरील जाहिरातीद्वारे आपल्या व्यवसायाची प्रसिद्धी करा.",
+
+        ad3Title:
+            "बाजूच्या भिंतीवरील बॅनर",
+
+        ad3Text:
+            "आपल्या ब्रँडसाठी उपलब्ध बॅनर जागा.",
+
+        ad4Title:
+            "प्रवेशद्वार ब्रँडिंग",
+
+        ad4Text:
+            "प्रवेशद्वाराच्या माध्यमातून आपल्या ब्रँडची दृश्यमानता वाढवा.",
+
+        ad5Title:
+            "कार्यक्रम प्रायोजकत्व",
+
+        ad5Text:
+            "गणेशोत्सव २०२६ मधील कार्यक्रमांशी आपल्या ब्रँडची जोडणी करा.",
+
+        available:
+            "उपलब्ध",
+
+        open:
+            "खुले",
+
+        priceTitle:
+            "जाहिरात सुरू",
+
+        price:
+            "₹५,००० पासून",
+
+        priceText:
+            "उपलब्ध जागा आणि किंमतीसाठी आमच्या मंडळाशी संपर्क साधा.",
+
+
+        sponsorNumber:
+            "०६ / प्रायोजकत्व",
+
+        sponsorTitle:
+            "प्रायोजक बना",
+
+        sponsorSubtitle:
+            "आपल्या ब्रँडला गणेशोत्सव २०२६ चा भाग बनवा.",
+
+        titlePartner:
+            "मुख्य प्रायोजक",
+
+        goldPartner:
+            "गोल्ड प्रायोजक",
+
+        communityPartner:
+            "सामुदायिक प्रायोजक",
+
+        discuss:
+            "चर्चा करूया",
+
+        popular:
+            "लोकप्रिय",
+
+        titleBenefit1:
+            "प्रमुख ब्रँडिंगची संधी",
+
+        titleBenefit2:
+            "मुख्य जाहिरात जागा",
+
+        titleBenefit3:
+            "प्रवेशद्वार व गेट ब्रँडिंग",
+
+        titleBenefit4:
+            "सोशल मीडिया प्रसिद्धी",
+
+        titleBenefit5:
+            "कार्यक्रमाच्या घोषणा",
+
+        titleBenefit6:
+            "प्रायोजक म्हणून विशेष उल्लेख",
+
+        goldBenefit1:
+            "प्रमुख बॅनर जागा",
+
+        goldBenefit2:
+            "लोगोची दृश्यमानता",
+
+        goldBenefit3:
+            "सोशल मीडिया उल्लेख",
+
+        goldBenefit4:
+            "कार्यक्रम प्रसिद्धी",
+
+        goldBenefit5:
+            "प्रायोजक म्हणून उल्लेख",
+
+        communityBenefit1:
+            "लोगोची जागा",
+
+        communityBenefit2:
+            "बॅनरची संधी",
+
+        communityBenefit3:
+            "सोशल मीडिया उल्लेख",
+
+        communityBenefit4:
+            "सामुदायिक सन्मान",
+
+        enquire:
+            "💬 व्हॉट्सॲपवर चौकशी करा",
+
+
+        visibilityNumber:
+            "०७ / ब्रँडची दृश्यमानता",
+
+        visibilityTitle:
+            "आपला ब्रँड कुठे दिसू शकतो",
+
+        visibility1Title:
+            "मुख्य प्रवेशद्वार",
+
+        visibility1Text:
+            "उत्सवाच्या मुख्य प्रवेशद्वारावर प्रमुख ब्रँडिंग.",
+
+        visibility2Title:
+            "गेट ब्रँडिंग",
+
+        visibility2Text:
+            "गेट जाहिरातीद्वारे आपल्या ब्रँडची दृश्यमानता वाढवा.",
+
+        visibility3Title:
+            "रस्त्यावरील होर्डिंग",
+
+        visibility3Text:
+            "परिसरातून प्रवास करणाऱ्या नागरिकांपर्यंत पोहोचा.",
+
+        visibility4Title:
+            "डिजिटल प्रसिद्धी",
+
+        visibility4Text:
+            "डिजिटल माध्यमातून आपल्या ब्रँडची प्रसिद्धी करा.",
+
+
+        contactNumber:
+            "०८ / संपर्क",
+
+        contactTitle:
+            "आपल्या ब्रँडला आमच्या उत्सवाचा भाग बनवा",
+
+        contactText:
+            "गणेशोत्सव २०२६ साठी जाहिरात किंवा प्रायोजकत्वामध्ये रस आहे? प्रायोजकत्व आणि जाहिरातीच्या माहितीसाठी आमच्या मंडळाशी संपर्क साधा.",
+
+        contactAddress:
+            "📍 काकाजी नगर, गोरेगाव पश्चिम, मुंबई",
+
+        whatsappSponsor:
+            "💬 प्रायोजकत्वासाठी व्हॉट्सॲप",
+
+        visitWebsite:
+            "🌐 अधिकृत संकेतस्थळ पहा",
+
+
+        footerBrand:
+            "काकाजी नगर",
+
+        footerMandal:
+            "सार्वजनिक श्री गणेश उत्सव मित्र मंडळ",
+
+        footerLocation:
+            "गोरेगाव पश्चिम, मुंबई",
+
+        copyright:
+            "© २०२६ काकाजी नगर सार्वजनिक श्री गणेश उत्सव मित्र मंडळ. सर्व हक्क राखीव.",
+
+        bappaMorya:
+            "गणपती बाप्पा मोरया 🙏"
+
+    },
+
+
+    /* =================================================
+       HINDI
+    ================================================= */
+
+    hi: {
+
+        brandName:
+            "काकाजी नगर",
+
+        brandSubtitle:
+            "गणेश उत्सव मित्र मंडल",
+
+        navHome:
+            "मुख्य पृष्ठ",
+
+        navAbout:
+            "हमारे बारे में",
+
+        navLegacy:
+            "हमारी विरासत",
+
+        navMemories:
+            "यादें",
+
+        navAdvertising:
+            "विज्ञापन",
+
+        navSponsorship:
+            "प्रायोजन",
+
+        navContact:
+            "संपर्क",
+
+        officialWebsite:
+            "आधिकारिक वेबसाइट ↗",
+
+
+        heroBadge:
+            "🙏 श्री गणेशाय नमः",
+
+        heroSmall:
+            "गणेशोत्सव २०२६",
+
+        heroNumber:
+            "३५वां",
+
+        heroYears:
+            "वर्ष",
+
+        mandalName:
+            "काकाजी नगर",
+
+        mandalFullName:
+            "सार्वजनिक श्री गणेश उत्सव मित्र मंडल",
+
+        location:
+            "📍 गोरेगांव पश्चिम, मुंबई",
+
+        heroDescription:
+            "३१ अगस्त १९९२ को स्थापित हमारा मंडल आस्था, परंपरा, संस्कृति और सामुदायिक एकता का प्रतीक है। २०२६ में हम अपना ३५वां वर्ष मना रहे हैं और व्यवसायों तथा संस्थाओं को प्रायोजन और विज्ञापन के माध्यम से हमारे गणेशोत्सव का हिस्सा बनने के लिए आमंत्रित करते हैं।",
+
+        becomeSponsor:
+            "🤝 प्रायोजक बनें",
+
+        advertisingButton:
+            "📢 विज्ञापन के अवसर",
+
+
+        stat1Number:
+            "३५वां",
+
+        stat1Text:
+            "वर्ष का उत्सव",
+
+        stat2Number:
+            "१९९२",
+
+        stat2Text:
+            "स्थापना",
+
+        stat3Number:
+            "गोरेगांव",
+
+        stat3Text:
+            "पश्चिम, मुंबई",
+
+        stat4Number:
+            "२०२६",
+
+        stat4Text:
+            "प्रायोजन खुले हैं",
+
+
+        aboutNumber:
+            "०१ / हमारे बारे में",
+
+        aboutTitle:
+            "सिर्फ एक उत्सव नहीं, एक परंपरा",
+
+        aboutSubtitle:
+            "आस्था, परंपरा और समुदाय की यात्रा।",
+
+        establishedLabel:
+            "स्थापना",
+
+        establishedDate:
+            "३१ अगस्त १९९२",
+
+        aboutHeading:
+            "काकाजी नगर सार्वजनिक श्री गणेश उत्सव मित्र मंडल",
+
+        aboutPara1:
+            "काकाजी नगर सार्वजनिक श्री गणेश उत्सव मित्र मंडल की स्थापना ३१ अगस्त १९९२ को गोरेगांव पश्चिम, मुंबई में हुई थी।",
+
+        aboutPara2:
+            "तीन दशकों से अधिक समय से हमारा मंडल गणेशोत्सव, आस्था, संस्कृति और सामुदायिक एकता के माध्यम से लोगों को एक साथ जोड़ रहा है।",
+
+        aboutPara3:
+            "२०२६ में हम अपना ३५वां वर्ष मना रहे हैं और व्यवसायों तथा संस्थाओं को प्रायोजन और विज्ञापन के माध्यम से हमारे उत्सव का हिस्सा बनने के लिए आमंत्रित करते हैं।",
+
+        aboutFact1Number:
+            "१९९२",
+
+        aboutFact1Text:
+            "स्थापना",
+
+        aboutFact2Number:
+            "३५वां",
+
+        aboutFact2Text:
+            "वर्ष",
+
+        aboutFact3Number:
+            "२०२६",
+
+        aboutFact3Text:
+            "गणेशोत्सव",
+
+
+        whyNumber:
+            "०२ / हमारे साथ क्यों जुड़ें?",
+
+        whyTitle:
+            "अपने ब्रांड को हमारे उत्सव का हिस्सा बनाएं",
+
+        whySubtitle:
+            "गणेशोत्सव २०२६ के दौरान अपने व्यवसाय को स्थानीय समुदाय से जोड़ें।",
+
+        benefit1Title:
+            "बेहतरीन स्थान",
+
+        benefit1Text:
+            "गोरेगांव पश्चिम, मुंबई में गोरेगांव पश्चिम रेलवे स्टेशन के पास स्थित।",
+
+        benefit2Title:
+            "समुदाय से जुड़ाव",
+
+        benefit2Text:
+            "भक्तों, स्थानीय निवासियों, परिवारों और आगंतुकों से अपने व्यवसाय को जोड़ें।",
+
+        benefit3Title:
+            "ब्रांड की दृश्यता",
+
+        benefit3Text:
+            "उपलब्ध विज्ञापन अवसरों के माध्यम से अपने व्यवसाय का प्रचार करें।",
+
+        benefit4Title:
+            "सामुदायिक जुड़ाव",
+
+        benefit4Text:
+            "अपने ब्रांड को लंबे समय से चले आ रहे सांस्कृतिक उत्सव से जोड़ें.",
+
+
+        legacyNumber:
+            "०३ / हमारी विरासत",
+
+        legacyTitle:
+            "१९९२ से हमारी यात्रा",
+
+        legacySubtitle:
+            "आस्था, संस्कृति और समुदाय की परंपरा।",
+
+        legacyYear:
+            "१९९२",
+
+        legacyYearText:
+            "स्थापना",
+
+        legacyHeading:
+            "जारी रहने वाली यात्रा",
+
+        legacyPara1:
+            "हमारी यात्रा ३१ अगस्त १९९२ को शुरू हुई। तब से गणेशोत्सव काकाजी नगर समुदाय का एक महत्वपूर्ण हिस्सा रहा है।",
+
+        legacyPara2:
+            "हर वर्ष हमारा गणपति उत्सव आस्था, रचनात्मकता, संस्कृति और सामुदायिक भावना को एक साथ लाता है।",
+
+        legacyPara3:
+            "२०२६ में हम गर्व के साथ अपना ३५वां वर्ष मना रहे हैं और अपने समुदाय, शुभचिंतकों तथा सहयोगियों के समर्थन से इस परंपरा को आगे बढ़ा रहे हैं।",
+
+        readOfficialWebsite:
+            "हमारे मंडल के बारे में और जानें ↗",
+
+
+        memoriesNumber:
+            "०४ / यादें",
+
+        memoriesTitle:
+            "हमारी यात्रा के यादगार क्षण",
+
+        memoriesSubtitle:
+            "हमारे गणेशोत्सव समारोहों की तस्वीरें।",
+
+
+        advertisingNumber:
+            "०५ / विज्ञापन",
+
+        advertisingTitle:
+            "विज्ञापन के अवसर",
+
+        advertisingSubtitle:
+            "जहाँ समुदाय एकत्र होता है, वहाँ अपने ब्रांड की उपस्थिति बनाएं।",
+
+        ad1Title:
+            "मुख्य प्रवेश द्वार ब्रांडिंग",
+
+        ad1Text:
+            "मुख्य प्रवेश द्वार पर अपने ब्रांड को प्रमुखता से प्रदर्शित करें।",
+
+        ad2Title:
+            "सामने की सड़क पर होर्डिंग",
+
+        ad2Text:
+            "सामने की सड़क पर विज्ञापन के माध्यम से अपने व्यवसाय को प्रदर्शित करें।",
+
+        ad3Title:
+            "साइड वॉल बैनर",
+
+        ad3Text:
+            "आपके ब्रांड के लिए समर्पित बैनर स्थान।",
+
+        ad4Title:
+            "गेट ब्रांडिंग",
+
+        ad4Text:
+            "गेट ब्रांडिंग के माध्यम से अपने ब्रांड की दृश्यता बढ़ाएं।",
+
+        ad5Title:
+            "कार्यक्रम प्रायोजन",
+
+        ad5Text:
+            "अपने ब्रांड को गणेशोत्सव २०२६ के कार्यक्रमों से जोड़ें।",
+
+        available:
+            "उपलब्ध",
+
+        open:
+            "खुले",
+
+        priceTitle:
+            "विज्ञापन की शुरुआत",
+
+        price:
+            "₹५,००० से",
+
+        priceText:
+            "उपलब्ध स्थान और कीमतों के लिए हमारी टीम से संपर्क करें।",
+
+
+        sponsorNumber:
+            "०६ / प्रायोजन",
+
+        sponsorTitle:
+            "प्रायोजक बनें",
+
+        sponsorSubtitle:
+            "अपने ब्रांड को गणेशोत्सव २०२६ का हिस्सा बनाएं।",
+
+        titlePartner:
+            "मुख्य प्रायोजक",
+
+        goldPartner:
+            "गोल्ड प्रायोजक",
+
+        communityPartner:
+            "सामुदायिक प्रायोजक",
+
+        discuss:
+            "चर्चा करें",
+
+        popular:
+            "लोकप्रिय",
+
+        titleBenefit1:
+            "प्रीमियम ब्रांडिंग का अवसर",
+
+        titleBenefit2:
+            "मुख्य विज्ञापन स्थान",
+
+        titleBenefit3:
+            "गेट और प्रवेश द्वार ब्रांडिंग",
+
+        titleBenefit4:
+            "सोशल मीडिया प्रचार",
+
+        titleBenefit5:
+            "कार्यक्रम घोषणाएं",
+
+        titleBenefit6:
+            "प्रायोजक के रूप में विशेष पहचान",
+
+        goldBenefit1:
+            "प्रीमियम बैनर स्थान",
+
+        goldBenefit2:
+            "लोगो की दृश्यता",
+
+        goldBenefit3:
+            "सोशल मीडिया उल्लेख",
+
+        goldBenefit4:
+            "कार्यक्रम प्रचार",
+
+        goldBenefit5:
+            "प्रायोजक के रूप में उल्लेख",
+
+        communityBenefit1:
+            "लोगो स्थान",
+
+        communityBenefit2:
+            "बैनर का अवसर",
+
+        communityBenefit3:
+            "सोशल मीडिया उल्लेख",
+
+        communityBenefit4:
+            "सामुदायिक सम्मान",
+
+        enquire:
+            "💬 व्हाट्सऐप पर पूछताछ करें",
+
+
+        visibilityNumber:
+            "०७ / ब्रांड की दृश्यता",
+
+        visibilityTitle:
+            "आपका ब्रांड कहाँ दिखाई दे सकता है",
+
+        visibility1Title:
+            "मुख्य प्रवेश द्वार",
+
+        visibility1Text:
+            "उत्सव के मुख्य प्रवेश द्वार पर प्रमुख ब्रांडिंग।",
+
+        visibility2Title:
+            "गेट ब्रांडिंग",
+
+        visibility2Text:
+            "उत्सव के गेट पर ब्रांडिंग के माध्यम से दृश्यता बढ़ाएं।",
+
+        visibility3Title:
+            "सड़क पर होर्डिंग",
+
+        visibility3Text:
+            "आसपास के क्षेत्र से आने-जाने वाले लोगों तक पहुंचें।",
+
+        visibility4Title:
+            "डिजिटल प्रचार",
+
+        visibility4Text:
+            "डिजिटल माध्यमों के माध्यम से अपने ब्रांड का प्रचार करें।",
+
+
+        contactNumber:
+            "०८ / संपर्क",
+
+        contactTitle:
+            "अपने ब्रांड को हमारे उत्सव का हिस्सा बनाएं",
+
+        contactText:
+            "गणेशोत्सव २०२६ के लिए विज्ञापन या प्रायोजन में रुचि है? प्रायोजन और विज्ञापन की जानकारी के लिए हमारे मंडल से संपर्क करें।",
+
+        contactAddress:
+            "📍 काकाजी नगर, गोरेगांव पश्चिम, मुंबई",
+
+        whatsappSponsor:
+            "💬 प्रायोजन के लिए व्हाट्सऐप",
+
+        visitWebsite:
+            "🌐 आधिकारिक वेबसाइट देखें",
+
+
+        footerBrand:
+            "काकाजी नगर",
+
+        footerMandal:
+            "सार्वजनिक श्री गणेश उत्सव मित्र मंडल",
+
+        footerLocation:
+            "गोरेगांव पश्चिम, मुंबई",
+
+        copyright:
+            "© २०२६ काकाजी नगर सार्वजनिक श्री गणेश उत्सव मित्र मंडल। सर्वाधिकार सुरक्षित।",
+
+        bappaMorya:
+            "गणपति बप्पा मोरया 🙏"
+
+    }
+
+};
+
+
+/* =====================================================
+   LANGUAGE SYSTEM
+===================================================== */
+
+const languageButton =
+    document.getElementById(
+        "languageButton"
+    );
+
+
+const languageMenu =
+    document.getElementById(
+        "languageMenu"
+    );
+
+
+const languageButtons =
+    document.querySelectorAll(
+        "[data-language]"
+    );
+
+
+function changeLanguage(language) {
+
+    if (!translations[language]) {
+
+        language = "en";
+
+    }
+
+
+    document
+        .querySelectorAll("[data-i18n]")
+        .forEach(function(element) {
+
+            const key =
+                element.getAttribute(
+                    "data-i18n"
+                );
+
+
+            if (
+                Object.prototype
+                    .hasOwnProperty
+                    .call(
+                        translations[language],
+                        key
+                    )
+            ) {
+
+                element.textContent =
+                    translations[language][key];
+
+            }
+
+        });
+
+
+    document.documentElement.lang =
+        language;
+
+
+    document.body.classList.toggle(
+        "devnagari",
+        language !== "en"
+    );
+
+
+    if (language === "en") {
+
+        languageButton.textContent =
+            "🌐 English ▾";
+
+    }
+
+    else if (language === "mr") {
+
+        languageButton.textContent =
+            "🌐 मराठी ▾";
+
+    }
+
+    else if (language === "hi") {
+
+        languageButton.textContent =
+            "🌐 हिन्दी ▾";
+
+    }
+
+
+    localStorage.setItem(
+        "selectedLanguage",
+        language
+    );
+
+}
+
+
+/* =====================================================
+   OPEN LANGUAGE MENU
+===================================================== */
+
+languageButton.addEventListener(
+    "click",
+    function(event) {
+
+        event.stopPropagation();
+
+        languageMenu.classList.toggle(
+            "show"
+        );
+
+    }
+);
+
+
+/* =====================================================
+   SELECT LANGUAGE
+===================================================== */
+
+languageButtons.forEach(
+    function(button) {
+
+        button.addEventListener(
+            "click",
+            function() {
+
+                const language =
+                    this.getAttribute(
+                        "data-language"
+                    );
+
+
+                changeLanguage(
+                    language
+                );
+
+
+                languageMenu.classList.remove(
+                    "show"
+                );
+
+            }
+        );
+
+    }
+);
+
+
+/* =====================================================
+   CLOSE LANGUAGE MENU
+===================================================== */
+
+document.addEventListener(
+    "click",
+    function(event) {
+
+        if (
+            !event.target.closest(
+                ".language-selector"
+            )
+        ) {
+
+            languageMenu.classList.remove(
+                "show"
+            );
+
+        }
+
+    }
+);
+
+
+/* =====================================================
+   MOBILE MENU
+===================================================== */
+
+const menuButton =
+    document.getElementById(
+        "menuButton"
+    );
+
+
+const navLinks =
+    document.getElementById(
+        "navLinks"
+    );
+
+
+menuButton.addEventListener(
+    "click",
+    function() {
+
+        navLinks.classList.toggle(
+            "active"
+        );
+
+    }
+);
+
+
+/* =====================================================
+   CLOSE MOBILE MENU
+===================================================== */
+
+document
+    .querySelectorAll(
+        ".nav-links > a"
+    )
+    .forEach(
+        function(link) {
+
+            link.addEventListener(
+                "click",
+                function() {
+
+                    navLinks.classList.remove(
+                        "active"
+                    );
+
+                }
+            );
+
+        }
+    );
+
+
+/* =====================================================
+   LOAD SAVED LANGUAGE
+===================================================== */
+
+const savedLanguage =
+    localStorage.getItem(
+        "selectedLanguage"
+    );
+
+
+if (savedLanguage) {
+
+    changeLanguage(
+        savedLanguage
+    );
+
+}
+
+else {
+
+    changeLanguage(
+        "en"
+    );
+
+}
+
+</script>
+
+
+</body>
+
+</html>
